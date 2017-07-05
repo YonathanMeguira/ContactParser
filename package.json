@@ -1,0 +1,24 @@
+{
+  "name": "contact-parser",
+  "version": "1.0.0",
+  "description": "How to execute? node index.js test.txt\r it will create some other contact.xls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanmeguira/ContactParser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanmeguira/ContactParser/issues"
+  },
+  "homepage": "https://github.com/jonathanmeguira/ContactParser#readme",
+  "dependencies": {
+    "html-entities": "~1.2.0",
+    "cheerio": "~0.22.0",
+    "request": "~2.79.0"
+  }
+}
