@@ -12,7 +12,7 @@ var scraper = require('./lib/facebook-nologin-scraper');
 if (process.argv.length < 3) {
     console.log('Usage: node ' + process.argv[1] + ' FILENAME');
 
-    request('https://www.facebook.com/avimorlevi',
+    request('https://www.facebook.com/someone',
         {
             headers: {
                 'user-agent': 'curl/7.47.0',
